@@ -4,23 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>To Do App</title>
-    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="firstd">
-        <h5>Developed by:</h5><h5>Muhammad faiz Ahmed</h5>
-    </div>
+  
     <div class="maindiv">
         <input type="text" name="text" id="text" placeholder="Add Your List" required>
         <div>
-        <button onclick="addTodo()">Add Item</button>
-        <button onclick="deleteAll()">Delete all</button>
+        <button id="addItem" onclick="addTodo(this)">Add Item</button>
+        <button id="deleteAll" onclick="deleteAll(this)">Delete all</button>
         </div>
     </div>
         
     <div class="main1div">
         <ul id="list">
-
+            
         </ul>
     </div>
     
